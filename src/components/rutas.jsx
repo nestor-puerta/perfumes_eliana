@@ -6,6 +6,7 @@ import PerfumesHombre from '../pages/PerfumesHombre';
 import PerfumesMujer from '../pages/PerfumesMujer';
 import PerfumesNinos from '../pages/PerfumesNinos';
 import PerfumesMascotas from '../pages/PerfumesMascotas';
+import Contact from '../pages/Contact';
 
 function Rutas() {
   return (
@@ -17,6 +18,7 @@ function Rutas() {
         <Route path="/perfumes-mujer" element={<PerfumesMujer />} />
         <Route path="/perfumes-ninos" element={<PerfumesNinos />} />
         <Route path="/perfumes-mascotas" element={<PerfumesMascotas />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
