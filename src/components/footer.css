@@ -1,0 +1,20 @@
+.app-footer {
+  background: linear-gradient(120deg, #f4ecff, #f8f1fd);
+  border-top: 1px solid #e7d6f5;
+  text-align: center;
+  padding: 1rem;
+  color: #5a2e64;
+  font-size: 0.9rem;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.app-footer p {
+  margin: 0.28rem 0;
+}
+
+@media (max-width: 640px) {
+  .app-footer {
+    font-size: 0.82rem;
+    padding: 0.8rem;
+  }
+}

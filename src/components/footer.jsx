@@ -1,8 +1,9 @@
 import React from 'react';
+import './footer.css';
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: '#f8f9fa', padding: '1rem', textAlign: 'center', marginTop: '2rem' }}>
+    <footer className="app-footer">
       <p>&copy; 2026 Perfumes Elegantes. Todos los derechos reservados.</p>
       <p>Contacto: info@perfumes.com</p>
     </footer>
